@@ -1,0 +1,2 @@
+user-agent:*
+Allow: /Sitemap: https://www.simply.com/dk/controlpanel/troelsrokkedal.dk/filebrowser/?path=webunivers#:~:text=16.10.2024%2013%3A20-,sitemap.xml,-1%20KB

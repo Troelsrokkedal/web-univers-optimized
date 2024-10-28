@@ -1,0 +1,190 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*styling af min body */
+body {
+    background-color: #dcd3d3;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*styling af min navbar */
+.menubar {
+    text-align: center;
+    background-color: #dcd3d3;
+}
+
+.menubar ul {
+    display:inline-flex;
+    color:#be8111;
+}
+
+.menubar ul li {
+    width: 220px;
+    margin: 15px;
+    padding: 15px;  
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menubar ul li a {
+    transition: color 0.3s;
+}
+
+.menubar ul li a:hover {
+    transform: scale(1.1);
+}
+
+
+.menubar ul li a {
+    text-decoration: none;
+    color:#be8111;
+}
+
+.submenu {
+    display: none;
+}
+
+.menubar ul li:hover .submenu {
+    display: block;
+    position:absolute;
+    background-color: #dcd3d3;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menubar ul li:hover .submenu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menubar ul li:hover .submenu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #be8111;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.menubar ul li:hover .submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.menubar ul li:hover .submenu ul li a {
+    transition: color 0.3s;
+}
+
+.menubar ul li:hover .submenu ul li a:hover {
+    color: #F7931E;
+}
+
+.submenu2 {
+    display: none;
+}
+
+.hoverme:hover .submenu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: #dcd3d3;
+}
+
+/* Styling af logo i navbar */
+  
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-top: -15px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+/*styling af min streg */
+hr {
+    border: none;
+    height: 5px;
+    background-color: #be8111;
+    margin: 0;
+    }
+/*styling af min h1 */
+    h1 {
+        text-align: center;
+        color: #F7931E;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 36px;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-size: 50px;
+    }
+/*styling af min h4 */
+    h4 {
+        text-align: center;
+        color: #F7931E;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+/*styling af min h5 */
+    h5 {
+        text-align: left;
+        color: #F7931E;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 300px;
+        font-size: 15px;
+    }
+/*styling af min underside, artikel og billeder */
+    .infotekst-su {
+        color: #be8111;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .artikel {
+        color: #be8111;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 25px;
+        margin-left: 450px;
+        margin-right: 0px;
+        margin-bottom: 45px;
+        font-size:  15px;
+        max-width: 600px;
+    }
+/*styling af min footer */
+    .footer {
+        background-color: #dcd3d3;
+        width: 100px;
+        margin: 0;
+    }
+    
+    
+.footer ul {
+        margin-top: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+    
+.footer ul li a {
+        color: #be8111;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 0.7;
+    }
+    
+.footer ul li a:hover {
+        opacity: 1;
+    }
+
